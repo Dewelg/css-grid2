@@ -7,9 +7,23 @@ body{
   background: radial-gradient(rgb(212, 199, 199), rgb(0, 0, 0));
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 html {
   font-size: 10px;
+}
+
+main{
+  background-color: white;
+  color: black;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
